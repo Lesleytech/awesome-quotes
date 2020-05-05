@@ -29,9 +29,10 @@ export default function Quotes({
     _author = "Anonymous";
   }
   return (
-    <Card className={styles.container}>
+    <Card className={styles.container} id="quote-box">
       {isQuoteLoading && <LinearProgress color="secondary" />}
       <CardHeader
+        id="author"
         className={cx(styles.animation, isQuoteLoading && styles.animated)}
         avatar={
           <Avatar aria-label="author" style={{ backgroundColor: red[500] }}>
@@ -46,6 +47,7 @@ export default function Quotes({
         className={cx(styles.animation, isQuoteLoading && styles.animated)}
       >
         <Typography
+          id="text"
           variant="body2"
           color="textSecondary"
           component="blockquote"
@@ -69,6 +71,7 @@ export default function Quotes({
           <Link
             href={`https://twitter.com/intent/tweet?hashtags=quotes&related=lafenlesley&text=${quote}`}
             target="_blank"
+            id="tweet-quote"
           >
             <IconButton aria-label="twitter">
               <TwitterIcon />
@@ -77,6 +80,7 @@ export default function Quotes({
         </Tooltip>
         <Tooltip title="Shuffle">
           <IconButton
+            id="new-quote"
             aria-label="reload"
             style={{ marginLeft: "auto" }}
             onClick={changeQuote}
