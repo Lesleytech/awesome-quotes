@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/awesome-quotes/static/css/main.2476b9de.chunk.css",
-    "main.js": "/awesome-quotes/static/js/main.b2451859.chunk.js",
-    "main.js.map": "/awesome-quotes/static/js/main.b2451859.chunk.js.map",
+    "main.js": "/awesome-quotes/static/js/main.4131efbd.chunk.js",
+    "main.js.map": "/awesome-quotes/static/js/main.4131efbd.chunk.js.map",
     "runtime-main.js": "/awesome-quotes/static/js/runtime-main.5921942f.js",
     "runtime-main.js.map": "/awesome-quotes/static/js/runtime-main.5921942f.js.map",
     "static/js/2.ee42ff94.chunk.js": "/awesome-quotes/static/js/2.ee42ff94.chunk.js",
     "static/js/2.ee42ff94.chunk.js.map": "/awesome-quotes/static/js/2.ee42ff94.chunk.js.map",
     "index.html": "/awesome-quotes/index.html",
-    "precache-manifest.b1b7581a16c63ac5f45818a0481a6dea.js": "/awesome-quotes/precache-manifest.b1b7581a16c63ac5f45818a0481a6dea.js",
+    "precache-manifest.cf24381de5e0e2e6a868a5e1609eed66.js": "/awesome-quotes/precache-manifest.cf24381de5e0e2e6a868a5e1609eed66.js",
     "service-worker.js": "/awesome-quotes/service-worker.js",
     "static/css/main.2476b9de.chunk.css.map": "/awesome-quotes/static/css/main.2476b9de.chunk.css.map",
     "static/js/2.ee42ff94.chunk.js.LICENSE.txt": "/awesome-quotes/static/js/2.ee42ff94.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5921942f.js",
     "static/js/2.ee42ff94.chunk.js",
     "static/css/main.2476b9de.chunk.css",
-    "static/js/main.b2451859.chunk.js"
+    "static/js/main.4131efbd.chunk.js"
   ]
 }
