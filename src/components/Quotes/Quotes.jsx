@@ -82,7 +82,7 @@ export default function Quotes({
         </Tooltip>
         <Tooltip title="Share on WhatsApp">
           <Link
-            href={`whatsapp://send?text="${quote}" \n - ${_author}`}
+            href={`whatsapp://send?text="${quote}" %0a%0a - _${_author}_`}
             data-action="share/whatsapp/share"
           >
             <IconButton aria-label="whatsapp">
