@@ -16,7 +16,9 @@ export default class App extends Component {
   async componentDidMount() {
     const quotes = await fetchQuotes();
     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+
     this.setState({ quotes, randomQuote, isLoading: false });
+
     setTimeout(() => {
       this.setState({ isQuoteLoading: false });
     }, 500);
@@ -32,6 +34,7 @@ export default class App extends Component {
       });
     }, 500);
   };
+
   render() {
     return (
       <div className={styles.container}>

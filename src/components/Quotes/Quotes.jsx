@@ -12,6 +12,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import LinearProgress from "@material-ui/core/LinearProgress";
 import Link from "@material-ui/core/Link";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Tooltip from "@material-ui/core/Tooltip";
@@ -40,7 +41,7 @@ export default function Quotes({
           </Avatar>
         }
         action={<IconButton aria-label="settings"></IconButton>}
-        title={_author}
+        title={<Typography style={{ fontSize: "22px" }}>{_author}</Typography>}
         subheader={"@" + _author.split(" ")[0]}
       />
       <CardContent
@@ -51,6 +52,7 @@ export default function Quotes({
           variant="body2"
           color="textSecondary"
           component="blockquote"
+          style={{ fontSize: "22px" }}
         >
           <FontAwesomeIcon icon={faQuoteLeft} className={styles.quote_left} />
           {quote}"
@@ -75,6 +77,16 @@ export default function Quotes({
           >
             <IconButton aria-label="twitter">
               <TwitterIcon />
+            </IconButton>
+          </Link>
+        </Tooltip>
+        <Tooltip title="Share on WhatsApp">
+          <Link
+            href={`whatsapp://send?text="${quote}" \n - ${_author}`}
+            data-action="share/whatsapp/share"
+          >
+            <IconButton aria-label="whatsapp">
+              <WhatsAppIcon />
             </IconButton>
           </Link>
         </Tooltip>
