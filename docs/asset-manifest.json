@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/awesome-quotes/static/css/main.899a2a3e.chunk.css",
-    "main.js": "/awesome-quotes/static/js/main.8b4f70b8.chunk.js",
-    "main.js.map": "/awesome-quotes/static/js/main.8b4f70b8.chunk.js.map",
+    "main.js": "/awesome-quotes/static/js/main.37055516.chunk.js",
+    "main.js.map": "/awesome-quotes/static/js/main.37055516.chunk.js.map",
     "runtime-main.js": "/awesome-quotes/static/js/runtime-main.5921942f.js",
     "runtime-main.js.map": "/awesome-quotes/static/js/runtime-main.5921942f.js.map",
     "static/js/2.c4d93db8.chunk.js": "/awesome-quotes/static/js/2.c4d93db8.chunk.js",
     "static/js/2.c4d93db8.chunk.js.map": "/awesome-quotes/static/js/2.c4d93db8.chunk.js.map",
     "index.html": "/awesome-quotes/index.html",
-    "precache-manifest.8c80f75a56efafe6a8350f5f9a4a482a.js": "/awesome-quotes/precache-manifest.8c80f75a56efafe6a8350f5f9a4a482a.js",
+    "precache-manifest.4397d3639d30caa302088f50cbbcf31f.js": "/awesome-quotes/precache-manifest.4397d3639d30caa302088f50cbbcf31f.js",
     "service-worker.js": "/awesome-quotes/service-worker.js",
     "static/css/main.899a2a3e.chunk.css.map": "/awesome-quotes/static/css/main.899a2a3e.chunk.css.map",
     "static/js/2.c4d93db8.chunk.js.LICENSE.txt": "/awesome-quotes/static/js/2.c4d93db8.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5921942f.js",
     "static/js/2.c4d93db8.chunk.js",
     "static/css/main.899a2a3e.chunk.css",
-    "static/js/main.8b4f70b8.chunk.js"
+    "static/js/main.37055516.chunk.js"
   ]
 }
